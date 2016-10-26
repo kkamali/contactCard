@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact Card</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="leftSide">
+            <form action="process.php" method="post">
+                <label for="first_name"> First Name: </label>
+                <input type="text" id="first_name" name="first_name" placeholder="First Name">
+                <label for="last_name"> Last Name: </label>
+                <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+                <label> Description: </label>
+                <textarea placeholder="Description"></textarea>
+                <input type="submit" value="Add User">
+            </form>
+        </div>
+        <div class="rightSide">
+        </div>
+    </body>
+</html>
